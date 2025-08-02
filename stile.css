@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: system-ui, sans-serif;
+  background: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#game {
+  text-align: center;
+}
+#logoBox {
+  height: 256px;
+  margin-bottom: 1rem;
+}
+#logo {
+  max-height: 100%;
+  max-width: 100%;
+}
+#buttons button {
+  font-size: 1.3rem;
+  padding: .6rem 1.2rem;
+  margin: 0 .5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#btnTrans   { background: #ff8cc8; }
+#btnTransport { background: #4fc3f7; }
+#score {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+.correct   { background: #00aa00 !important; }
+.wrong     { background: #cc0000 !important; }
